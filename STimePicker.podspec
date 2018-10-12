@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author       = { "shaoxu" => "airfree_shaoxu@163.com" }
   spec.platform     = :ios, "8.0"
-  spec.source       = { :git => "https://github.com/SFFinder/STimePicker.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/SFFinder/STimePicker.git"}
   spec.source_files  = "STimePicker", "STimePicker/**/*.{h,m}"
   spec.requires_arc = true
   spec.frameworks = 'UIKit', 'QuartzCore', 'Foundation'
